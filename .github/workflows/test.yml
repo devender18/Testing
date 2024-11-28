@@ -3,7 +3,7 @@ name: CI/CD pipeline
 on:
   pull_request:
     branches:
-      - main 
+      - '**'
 
 jobs:
   test:
